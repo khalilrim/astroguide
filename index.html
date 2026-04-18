@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopédie de l'Astronomie - Accueil</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="text-white bg-slate-900">
+    <header class="bg-slate-900 flex items-center justify-between px-10 py-6 border-b border-white/10 sticky top-0 z-10">
+        <h1 class="text-2xl font-semibold">
+            AstroGuide
+        </h1>
+        <nav class="space-x-6">
+            <a href="index.html"
+                class="hover:text-blue-500 text-xl hover:underline transition duration-300 underline-offset-8">Accueil</a>
+            <a href="articles.html"
+                class="hover:text-blue-500 text-xl hover:underline transition duration-300 underline-offset-8">Articles</a>
+            <a href="apropos.html" class="hover:text-blue-500 text-xl hover:underline transition duration-300 underline-offset-8">A
+                propos</a>
+        </nav>
+    </header>
+
+    <section class="h-[95vh] flex items-center px-16 bg-cover bg-center"
+        style="background-image: url('images/astronomie\ le\ monde.jpeg');">
+
+        <div>
+            <h2 class="text-6xl font-bold mb-6">
+                Explorez <br>
+                les mystères <br>
+                de l'univers <br>
+            </h2>
+
+            <p class="text-gray-300 mb-10 text-2xl">
+                Découvrez les secrets de l'astronomie à travers une encyclopédie complète et <br>
+                accessible. Des planètes aux galaxies, explorez les merveilles de l'univers.
+            </p>
+
+            <div class="flex gap-2">
+                <input type="text" placeholder="Rechercher une planète..."
+                    class="px-4 py-3 rounded-md bg-slate-800 min-w-100 text-xl">
+                <a href="#categories"
+                    class="bg-gradient-to-r from-blue-900 to-blue-950 hover:from-blue-500 px-6 py-3 rounded-md shadow-lg transition text-xl inline-block">
+                    Rechercher</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="categories" class="px-10 py-16">
+        <h2 class="text-3xl font-bold mb-20 text-center">
+            Découvrez les grandes catégories de l'astronomie
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto cursor-pointer">
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="images/planetes.jpeg" alt="Planètes" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-2xl font-semibold mb-2">Planètes</h3>
+                    <p class="text-gray-300 text-lg">
+                        Découvrez les différentes planètes du système solaire et leurs caractéristiques.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="images/etoiles.jpeg" alt="Étoiles" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-2xl font-semibold mb-2">Étoiles</h3>
+                    <p class="text-gray-300 text-lg">
+                        Explorez les étoiles, leur naissance, leur évolution et leur disparition.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="images/Galaxies.jpeg" alt="Galaxies" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-2xl font-semibold mb-2">Galaxies</h3>
+                    <p class="text-gray-300 text-lg">
+                        Apprenez-en plus sur les galaxies et les immenses structures de l'univers.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="images/trous-noirs.jpeg" alt="Trous noirs" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-2xl font-semibold mb-2">Trous noirs</h3>
+                    <p class="text-gray-300 text-lg">
+                        Découvrez ces objets mystérieux dont la gravité est extrêmement puissante.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800 ">
+                <img src="images/missions spatiales.jpeg" alt="Missions spatiales" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-2xl font-semibold mb-2">Missions spatiales</h3>
+                    <p class="text-gray-300 text-lg">
+                        Retrouvez les grandes explorations qui ont marqué l'histoire de l'espace.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="images/Telescopes.jpeg" alt="Télescopes" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-2xl font-semibold mb-2">Télescopes</h3>
+                    <p class="text-gray-300 text-lg">
+                        Découvrez les instruments qui permettent d'observer l'univers en détail.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-12">
+            <a href="articles.html"
+                class="bg-gradient-to-r from-blue-800 to-blue-950 hover:from-blue-500 mb-20 text-lg rounded-md px-8 py-3 shadow-lg transition">
+                Explorer les articles
+            </a>
+        </div>
+    </section>
+    <footer class="bg-slate-800 px-10 py-12 mt-16">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Encyclopédie de l'Astronomie</h3>
+                <p class="text-gray-300 text-lg">
+                    Explorez les mystères de l'univers à travers <br>
+                    nos différentes catégories et articles.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Navigation</h3>
+                <ul class="space-y-2 text-gray-300 text-lg">
+                    <li><a href="index.html" class="hover:text-blue-400">Accueil</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Articles</a></li>
+                    <li><a href="apropos.html" class="hover:text-blue-400">À propos</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Catégories</h3>
+                <ul class="space-y-2 text-gray-300 text-lg">
+                    <li><a href="articles.html" class="hover:text-blue-400">Planètes</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Étoiles</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Galaxies</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Trous noirs</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Missions spatiales</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Télescopes</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+                <p class="text-gray-300 mb-2 text-lg">Email : AstroGuide@gmail.com</p>
+                <p class="text-gray-300 mb-2 text-lg">Téléphone : +225 07 20 52 33 80</p>
+                <p class="text-gray-300 text-lg">Abidjan, Côte d'Ivoire</p>
+            </div>
+
+        </div>
+
+        <div class="mt-10 border-t border-gray-600 pt-4 text-center text-gray-400 text-lg">
+            © 2026 AstroGuide - Tous droits réservés
+        </div>
+
+    </footer>
+</body>
+
+</html>
