@@ -8,7 +8,8 @@ Il permet de découvrir les planètes, les étoiles, les galaxies et les phénom
 
 ## Membres du groupe
 - Rim Khalil  
-- (ajoute les autres membres si besoin)
+- Loukou Joas Phanuel
+- Bassit Luca Loreano Antonio
 
 ---
 
