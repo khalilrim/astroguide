@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopédie de l'Astronomie - Articles</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-900 text-white">
+
+
+    <header class="bg-slate-900 flex items-center justify-between px-10 py-6 border-b border-white/10 sticky top-0 z-10">
+        <h1 class="text-2xl font-semibold">
+            AstroGuide
+        </h1>
+
+        <nav class="space-x-6">
+            <a href="index.html"
+                class="hover:text-blue-500 text-xl hover:underline transition duration-300 underline-offset-8">
+                Accueil
+            </a>
+            <a href="articles.html"
+                class="hover:text-blue-500 text-xl hover:underline transition duration-300 underline-offset-8">
+                Articles
+            </a>
+            <a href="apropos.html"
+                class="hover:text-blue-500 text-xl hover:underline transition duration-300 underline-offset-8">
+                A propos
+            </a>
+        </nav>
+    </header>
+
+
+    <section class="px-10 py-16 text-center">
+        <h1 class="text-5xl font-bold mb-6">
+            Exploration Stellaire
+        </h1>
+
+        <p class="text-gray-300 text-xl max-w-3xl mx-auto">
+            Découvrez les merveilles de l'univers à travers une sélection d'articles
+            captivants sur les planètes, les étoiles, les galaxies et les phénomènes cosmiques.
+        </p>
+    </section>
+
+
+    <section class="px-10 pb-8">
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#all" class="bg-blue-900 hover:bg-blue-800 px-5 py-2 rounded-md transition text-lg">
+                Tous
+            </a>
+
+            <a href="#planetes" class="bg-slate-800 hover:bg-slate-700 px-5 py-2 rounded-md transition text-lg">
+                Planètes
+            </a>
+
+            <a href="#etoiles" class="bg-slate-800 hover:bg-slate-700 px-5 py-2 rounded-md transition text-lg">
+                Étoiles
+            </a>
+
+            <a href="#galaxies" class="bg-slate-800 hover:bg-slate-700 px-5 py-2 rounded-md transition text-lg">
+                Galaxies
+            </a>
+
+            <a href="#phenomenes" class="bg-slate-800 hover:bg-slate-700 px-5 py-2 rounded-md transition text-lg">
+                Phénomènes
+            </a>
+        </div>
+    </section>
+
+
+    <section class="px-10 py-12">
+
+        <div id="planetes" class="pt-1"></div>
+        <div id="etoiles" class="pt-1"></div>
+        <div id="galaxies" class="pt-1"></div>
+        <div id="phenomenes" class="pt-1"></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
+                    alt="Mars" class="w-full h-48 object-cover">
+
+                <div class="p-5">
+                    <p class="text-blue-400 text-sm mb-2">Planète</p>
+                    <h3 class="text-2xl font-semibold mb-2">Mars : La planète rouge</h3>
+                    <p class="text-gray-300 text-lg mb-4">
+                        Surnommée la planète rouge à cause de son sol riche en oxyde de fer.
+                        Elle abrite le plus haut volcan du système solaire, Olympus Mons.
+                    </p>
+                    <a href="apropos.html" class="text-blue-400 text-lg hover:underline">
+                        Lire l'article →
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Jupiter"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-5">
+                    <p class="text-blue-400 text-sm mb-2">Planète</p>
+                    <h3 class="text-2xl font-semibold mb-2">Jupiter : Le géant gazeux</h3>
+                    <p class="text-gray-300 text-lg mb-4">
+                        Plus grosse planète de notre système solaire, célèbre pour sa Grande
+                        Tache Rouge et ses nombreuses lunes.
+                    </p>
+                    <a href="apropos.html" class="text-blue-400 text-lg hover:underline">
+                        Lire l'article →
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Sirius_A_and_B_artwork.jpg" alt="Sirius"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-5">
+                    <p class="text-blue-400 text-sm mb-2">Étoile</p>
+                    <h3 class="text-2xl font-semibold mb-2">Sirius : L'étoile du chien</h3>
+                    <p class="text-gray-300 text-lg mb-4">
+                        L'étoile la plus brillante du ciel nocturne, située dans la
+                        constellation du Grand Chien, à seulement 8,6 années-lumière.
+                    </p>
+                    <a href="apropos.html" class="text-blue-400 text-lg hover:underline">
+                        Lire l'article →
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg"
+                    alt="Andromède" class="w-full h-48 object-cover">
+
+                <div class="p-5">
+                    <p class="text-blue-400 text-sm mb-2">Galaxie</p>
+                    <h3 class="text-2xl font-semibold mb-2">Andromède : Notre voisine</h3>
+                    <p class="text-gray-300 text-lg mb-4">
+                        Galaxie spirale proche de la Voie lactée, visible à l'œil nu.
+                        Elle entrera en collision avec notre galaxie dans plusieurs milliards d'années.
+                    </p>
+                    <a href="apropos.html" class="text-blue-400 text-lg hover:underline">
+                        Lire l'article →
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Black_Hole_Outflows_From_Centaurus_A.jpg"
+                    alt="Trou noir" class="w-full h-48 object-cover">
+
+                <div class="p-5">
+                    <p class="text-blue-400 text-sm mb-2">Phénomène</p>
+                    <h3 class="text-2xl font-semibold mb-2">Trous noirs : Mystères cosmiques</h3>
+                    <p class="text-gray-300 text-lg mb-4">
+                        Régions de l'espace où la gravité est si intense que rien,
+                        pas même la lumière, ne peut s'en échapper.
+                    </p>
+                    <a href="apropos.html" class="text-blue-400 text-lg hover:underline">
+                        Lire l'article →
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-800 rounded-lg overflow-hidden transition duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-800">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Crab_Nebula.jpg" alt="Supernova"
+                    class="w-full h-48 object-cover">
+
+                <div class="p-5">
+                    <p class="text-blue-400 text-sm mb-2">Étoile</p>
+                    <h3 class="text-2xl font-semibold mb-2">Supernova : La mort explosive</h3>
+                    <p class="text-gray-300 text-lg mb-4">
+                        Explosion violente d'une étoile en fin de vie, libérant une énergie
+                        immense et donnant naissance à des nébuleuses spectaculaires.
+                    </p>
+                    <a href="apropos.html" class="text-blue-400 text-lg hover:underline">
+                        Lire l'article →
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="text-center mt-6 mb-16">
+        <a href="apropos.html"
+            class="bg-gradient-to-r from-blue-800 to-blue-950 hover:from-blue-500 text-lg rounded-md px-8 py-3 shadow-lg transition">
+            Découvrir un article détaillé
+        </a>
+    </div>
+
+    <footer class="bg-slate-800 px-10 py-12 mt-16">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Encyclopédie de l'Astronomie</h3>
+                <p class="text-gray-300 text-lg">
+                    Explorez les mystères de l'univers à travers <br>
+                    nos différentes catégories et articles.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Navigation</h3>
+                <ul class="space-y-2 text-gray-300 text-lg">
+                    <li><a href="index.html" class="hover:text-blue-400">Accueil</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Articles</a></li>
+                    <li><a href="apropos.html" class="hover:text-blue-400">À propos</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Catégories</h3>
+                <ul class="space-y-2 text-gray-300 text-lg">
+                    <li><a href="articles.html" class="hover:text-blue-400">Planètes</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Étoiles</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Galaxies</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Trous noirs</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Missions spatiales</a></li>
+                    <li><a href="articles.html" class="hover:text-blue-400">Télescopes</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+                <p class="text-gray-300 mb-2 text-lg">Email : AstroGuide@gmail.com</p>
+                <p class="text-gray-300 mb-2 text-lg">Téléphone : +225 07 20 52 33 80</p>
+                <p class="text-gray-300 text-lg">Abidjan, Côte d'Ivoire</p>
+            </div>
+
+        </div>
+
+        <div class="mt-10 border-t border-gray-600 pt-4 text-center text-gray-400 text-lg">
+            © 2026 AstroGuide - Tous droits réservés
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
