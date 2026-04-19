@@ -30,4 +30,4 @@ git clone https://github.com/khalilrim/astroguide.git
 ---
 
 ## Site déployé
-Lien du site : 
+Lien du site : https://khalilrim.github.io/astroguide/
